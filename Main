@@ -1,0 +1,48 @@
+public class Main {
+    public static void main(String[] args) {
+        Pessoa pessoa1 = new Pessoa("Gabriel", 19);
+        Pessoa pessoa2 = new Pessoa("Júlia", 20);
+
+        Carro carro1 = new Carro("Ford", "Ka");
+        Carro carro2 = new Carro("Fiat", "Uno");
+
+        Produto produto1 = new Produto("Celular", 1000.00);
+        Produto produto2 = new Produto("Notebook", 3500.00);
+
+        Livro livro1 = new Livro("Harry Potter", "J.K. Rowling");
+        Livro livro2 = new Livro("Revolução dos bichos", "George Orwell");
+
+        Animal animal1 = new Animal("Cachorro", "Brian");
+        Animal animal2 = new Animal("Tartaruga", "Atom");
+
+
+        pessoa1.exibirDados();
+        System.out.println();
+        carro2.exibirDados();
+        System.out.println();
+        produto1.exibirDados();
+        System.out.println();
+        livro2.exibirDados();
+        System.out.println();
+        animal1.exibirDados();
+        System.out.println();
+
+
+       // pessoa1.nome = "José";
+      //  carro2.modelo = "GT";
+        //produto1.preco = 899.99;
+        //livro2.titulo = "Animal Farm";
+       // animal1.nome = "Rex";
+
+
+        pessoa2.exibirDados();
+        System.out.println();
+        carro1.exibirDados();
+        System.out.println();
+        produto2.exibirDados();
+        System.out.println();
+        livro1.exibirDados();
+        System.out.println();
+        animal2.exibirDados();
+    }
+}
