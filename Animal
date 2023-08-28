@@ -1,0 +1,14 @@
+class Animal {
+    String especie;
+    String nome;
+
+    public Animal(String especie, String nome) {
+        this.especie = especie;
+        this.nome = nome;
+    }
+
+    public void exibirDados() {
+        System.out.println("Espécie: " + especie);
+        System.out.println("Nome do animal: " + nome);
+    }
+}
